@@ -10,7 +10,7 @@
 import pandas as pd
 
 # Baixando o dataset "movies.csv" e armazenado em uma DataFrame
-filmes = pd.read_csv('datasets/ml-latest-small/movies.csv')
+filmes = pd.read_csv('https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula0/ml-latest-small/movies.csv')
 
 # Trocando os nomes das colunas
 filmes.columns = ['filmeId', 'titulo', 'generos']
@@ -23,7 +23,7 @@ filmes.head()
 
 
 # Baixando o dataset "ratings.csv" e armazenado em uma DataFrame
-avaliacoes = pd.read_csv('datasets/ml-latest-small/ratings.csv')
+avaliacoes = pd.read_csv('https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula0/ml-latest-small/ratings.csv')
 
 # Trocando os nomes das colunas
 avaliacoes.columns = ['usuarioId', 'filmeId', 'nota', 'momento']
@@ -134,13 +134,15 @@ generos
 # # Desafio 7
 # Plotar o gráfico de aparições por gênero. Pode ser um gráfico de tipo = barra
 
-# In[9]:
+# In[11]:
 
 
 # Importando as bibliotecas necessárias
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Setando estilos
+sns.set_style('whitegrid')
 cmap = sns.diverging_palette(150, 275, l=55, s=80, n=9, center='dark', as_cmap=True)
 
 # Tamanho da figura
@@ -167,7 +169,7 @@ plt.show()
 
 # ### Ou usando o bilioteca seaborn
 
-# In[10]:
+# In[12]:
 
 
 # Setando o estilo
