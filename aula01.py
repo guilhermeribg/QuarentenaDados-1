@@ -134,7 +134,7 @@ generos
 # # Desafio 7
 # Plotar o gráfico de aparições por gênero. Pode ser um gráfico de tipo = barra
 
-# In[11]:
+# In[9]:
 
 
 # Importando as bibliotecas necessárias
@@ -169,7 +169,7 @@ plt.show()
 
 # ### Ou usando o bilioteca seaborn
 
-# In[12]:
+# In[10]:
 
 
 # Setando o estilo
@@ -180,7 +180,7 @@ plt.figure(figsize=(15, 8))
 
 # Plotando o gráfico de barra com a seaborn
 sns.barplot(x=generos.index, y=generos.values, 
-            palette=sns.color_palette('BuGn_r', n_colors=len(generos)+10))
+            palette=sns.color_palette('cubehelix', n_colors=len(generos)+10))
 
 # Definindo o título
 plt.title('Ocorrência de gêneros', fontsize=20)
