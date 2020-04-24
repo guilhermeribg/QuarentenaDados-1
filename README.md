@@ -7,15 +7,15 @@
 <br>
 
 ## Sobre
-Atividade da #QuarentenaDados oferecido por [Alura](https://github.com/alura-cursos)
+Atividade da #QuarentenaDados oferecido por <a href="https://github.com/alura-cursos">[Alura]</a>
 
 ## Datasets
 <ul>
-    <li>[Movie Lens titles and genres](https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/ml-latest-small/movies.csv).</li>
-    <li>[Movie Lens notes](https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/ml-latest-small/ratings.csv).</li>
-    <li>[IMDB 5000](https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/movie_metadata.csv).</li>
-    <li>[ENEM data](https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/microdados_enem/MICRODADOS_ENEM_2018_SAMPLE_43278.csv).</li>
-    <li>[MovieLens](https://grouplens.org/datasets/movielens/) website you will find the complete base of films.</li>
+    <li><a href="https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/ml-latest-small/movies.csv">[Movie Lens titles and genres]</a>.</li>
+    <li><a href="https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/ml-latest-small/ratings.csv">[Movie Lens notes]</a>.</li>
+    <li><a href="https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/movie_metadata.csv">[IMDB 5000]</a>.</li>
+  <li><a href="https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/microdados_enem/MICRODADOS_ENEM_2018_SAMPLE_43278.csv">[ENEM 2018]</a>.</li>
+  <li><a href="https://grouplens.org/datasets/movielens/">[MovieLens]</a> (Website onde você encontrá a base de filmes completa).</li>
 </ul>
 
 
