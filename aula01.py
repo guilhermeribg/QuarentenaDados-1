@@ -10,7 +10,7 @@
 import pandas as pd
 
 # Baixando o dataset "movies.csv" e armazenado em uma DataFrame
-filmes = pd.read_csv('https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula0/ml-latest-small/movies.csv')
+filmes = pd.read_csv('https://raw.githubusercontent.com/ViniViniAntunes/QuarentenaDados/master/datasets/microdados_enem/ml-latest-small/movies.csv')
 
 # Trocando os nomes das colunas
 filmes.columns = ['filmeId', 'titulo', 'generos']
@@ -23,7 +23,7 @@ filmes.head()
 
 
 # Baixando o dataset "ratings.csv" e armazenado em uma DataFrame
-avaliacoes = pd.read_csv('https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula0/ml-latest-small/ratings.csv')
+avaliacoes = pd.read_csv('https://raw.githubusercontent.com/ViniViniAntunes/QuarentenaDados/master/datasets/microdados_enem/ml-latest-small/ratings.csv')
 
 # Trocando os nomes das colunas
 avaliacoes.columns = ['usuarioId', 'filmeId', 'nota', 'momento']
