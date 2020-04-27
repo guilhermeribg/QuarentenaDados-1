@@ -15,7 +15,7 @@ import warnings
 warnings.simplefilter("ignore")
 
 # Baixando a base de dados
-imdb = pd.read_csv("https://raw.githubusercontent.com/BiaChacon/data-science-starting/master/datasets/movie_metadata.csv")
+imdb = pd.read_csv("https://raw.githubusercontent.com/ViniViniAntunes/QuarentenaDados/master/datasets/microdados_enem/movie_metadata.csv")
 
 # Configurando o estilo dos gráficos
 sns.set_style("whitegrid")
