@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://www.alura.com.br/assets/api/cursos/data-science-primeiros-passos.svg" float="center" width=15%/>
 <p align="center">
-  <strong align="center">Data Science</strong>
+  <strong align="center">Learning Data Science</strong>
 </p>
 </h1> 
 <br>
