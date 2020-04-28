@@ -216,7 +216,7 @@ def plot_corr():
     # Selecionando os dados para análise
     dados_correlacao = imdb_usa[["gross", "budget", "lucro", "title_year"]]
     
-    # Renomeando as colunas do DataFrame selesionado
+    # Renomeando as colunas do DataFrame selecionado
     dados_correlacao.columns = ['Faturamento', 'Despesas', 'Lucro', 'Ano de Lançamento']
     
     # Plotando os gráficos de correlação entre as grandezas faturamento, despesas, lucro e ano de lançamento com a seaborn
